@@ -1,0 +1,2 @@
+nc -l -u 7776
+socat UDP-LISTEN:7777,fork UDP-LISTEN:7776
